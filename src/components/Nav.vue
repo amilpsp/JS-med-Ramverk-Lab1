@@ -3,18 +3,27 @@
 
 <template>
     <v-app-bar :elevation="2">
-      <template v-slot:prepend>
-        <v-app-bar-nav-icon></v-app-bar-nav-icon>
-      </template>
-      <v-app-bar-title>Application Bar</v-app-bar-title>
-      <v-button icon>
-        <Router-link to="/"><v-icon>mdi-home</v-icon>Home</Router-link>
-      </v-button>
-      <v-button icon>
-        <Router-link to="/about"><v-icon>mdi-info</v-icon>About</Router-link>
-      </v-button>
-      <v-button icon>
-        <Router-link to="/contact"><v-icon>mdi-email</v-icon>Contact</Router-link>
-      </v-button>
+        <template v-slot:prepend>
+            <Router-link to="/"><img id="app-bar-logo" src="../assets/logo.png"></Router-link>
+        </template>
+        <v-app-bar-title>NURDS</v-app-bar-title>
+        <Router-link to="/"><v-btn class="ma-2" variant="tonal"><v-icon start icon="mdi-home"></v-icon>Home</v-btn></Router-link>
+        <Router-link to="/contact"><v-btn class="ma-2" variant="tonal"><v-icon start icon="mdi-email"></v-icon>Contact</v-btn></Router-link>
+        <v-app-bar-nav-icon icon="mdi-magnify"></v-app-bar-nav-icon>
+      
     </v-app-bar>
 </template>
+
+<style scoped>
+    #app-bar-logo{
+        height: 2em;
+        justify-self: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    v-btn{
+        flex-direction: row;
+        justify-content: center;
+    }
+</style>
