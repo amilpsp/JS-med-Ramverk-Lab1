@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap"); /* already used */
+
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap");
+/* font-family: 'Nanum Gothic Coding', monospace; */
+
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+/* font-family: 'VT323', monospace; */
+
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+/* font-family: 'Covered By Your Grace', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+/* font-family: 'Covered By Your Grace', cursive; */
+
+/* <style> font I loved
+  @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+  font-family: 'Protest Revolution', sans-serif;
+</style> */
+.v-application {
+  font-family: "Protest Guerrilla", sans-serif;
+}
