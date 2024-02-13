@@ -1,0 +1,95 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Dungeon Master's Guide",
+      "brand": "Dungeons & Dragons",
+      "author": "Gary Gygax",
+      "category": "Books",
+      "price": "500",
+      "sizes": null,
+      "img-src": "../assets/img/book-dnd-dm-guide.jpeg",
+      "alt": "Hardcover book on a wooden countertop",
+      "best-seller": "false",
+      "available": "true"
+    },
+    {
+      "id": "2",
+      "title": "Monsters Manual",
+      "brand": "Dungeons & Dragons",
+      "author": "Gary Gygax",
+      "category": "Books",
+      "price": "550",
+      "sizes": null,
+      "img-src": "src/assets/img/book-dnd-monster-manual.jpeg",
+      "alt": "",
+      "best-seller": "false",
+      "available": "true"
+    },
+    {
+      "id": "3",
+      "title": "Player's Handbook",
+      "brand": "Dungeons & Dragons",
+      "author": "Gary Gygax",
+      "category": "Books",
+      "price": "450",
+      "sizes": null,
+      "img-src": "../assets/img/book-dnd-players-handbook.jpeg",
+      "alt": "Hardcover book on a wooden countertop",
+      "best-seller": "false",
+      "available": "true"
+    },
+    {
+      "id": "4",
+      "title": "Custom PS5 Controller",
+      "brand": "NURDS",
+      "author": null,
+      "category": "Electronic",
+      "price": "1000",
+      "sizes": null,
+      "img-src": "src/assets/img/controller-custom.jpeg",
+      "alt": "Lowlit custom controller on a dark background",
+      "best-seller": "false",
+      "available": "true"
+    },
+    {
+      "id": "5",
+      "title": "D20 table lamp",
+      "brand": "NURDS",
+      "author": null,
+      "category": "Merch",
+      "price": "700",
+      "sizes": null,
+      "img-src": "src/assets/img/d20-lamp.jpeg",
+      "alt": "Warm light table lamp on a bedside table",
+      "best-seller": "false",
+      "available": "true"
+    },
+    {
+      "id": "6",
+      "title": "Beholder miniature",
+      "brand": "NURDS",
+      "author": null,
+      "category": "Supplies",
+      "price": "50",
+      "sizes": null,
+      "img-src": "src/assets/img/deco-beholder.jpeg",
+      "alt": "Beholder combat miniature on a tabletop",
+      "best-seller": "false",
+      "available": "true"
+    },
+    {
+      "id": "7",
+      "title": "Golden Ornate Metal Dice Set",
+      "brand": "NURDS",
+      "author": null,
+      "category": "Supplies",
+      "price": "400",
+      "sizes": null,
+      "img-src": "src/assets/img/dice-set-golden.jpeg",
+      "alt": "Ornate golden die on a tabletop",
+      "best-seller": "false",
+      "available": "true"
+    }
+  ]
+}
