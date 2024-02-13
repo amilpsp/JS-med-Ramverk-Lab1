@@ -14,8 +14,22 @@
 
 /* <style> font I loved
   @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
-  font-family: 'Protest Revolution', sans-serif;
 </style> */
+/* font-family: 'Protest Revolution', sans-serif; */
+
+/* NONE OF THIS IS WORKING, FIGURE OUT HOW TO CHANGE THE DEFAULTS WITHOUT BREAKING EVERYTHING LATER */
+
+:root {
+  --logo-font: "Protest Guerrilla", sans serif;
+}
+
+$body-font-family: "Protest Guerrilla";
+$title-font: "Nanum Gothic Coding";
+
 .v-application {
-  font-family: "Protest Guerrilla", sans-serif;
+  font-family: $body-font-family, sans-serif !important;
+  .title {
+    /* # To pin point specific classes of some components */
+    font-family: $title-font, sans-serif !important;
+  }
 }
