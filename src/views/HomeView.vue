@@ -4,7 +4,7 @@ import Store from "@/components/Store.vue";
 </script>
 <template>
   <Hero />
-  <v-row>
+  <v-row class="d-flex align-center justify-center">
     <Store v-for="product in products" :key="product.id" :product="product" />
   </v-row>
 </template>
