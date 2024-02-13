@@ -3,7 +3,7 @@
     <v-responsive class="align-center text-center fill-height">
       <div class="text-body-2 font-weight-light mb-n1">Welcome to</div>
 
-      <h1 class="text-h2 font-weight-bold">NURDS</h1>
+      <h1 class="text-h2 font-weight-bold" id="store-name">NURDS</h1>
 
       <div class="py-14" />
 
@@ -43,3 +43,11 @@
 <script setup>
 //
 </script>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+
+#store-name {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-size: 2em;
+}
+</style>
