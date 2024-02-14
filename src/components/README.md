@@ -3,11 +3,11 @@
 ## För G så ska följande krav uppfyllas: ##
 
 - [x] Webbanrop. 
-- [x] Textinterpolering ({{ och }})
+- [x] Textinterpolering ({{  }})
 - [x] Attributinterpolering (v-bind eller dess kortform) används (key-props (relaterade till v-for) räknas inte)
 - [ ] Villkorlig rendering (v-if) används
 - [x] Listrendering (v-for) används
-- [ ] Händelser (v-on eller dess kortform) används
+- [x] Händelser (v-on eller dess kortform) används
 - [ ] v-model (och värdet som matas in) används
 - [ ] En Single Page Application, bestående av minst två webbsidor, ska skapas med Vue Router (Använd både router-link och router-view)
 - [x] Minst en icke-Vue-Router-.vue-komponent ska skapas (App.vue räknas inte)
@@ -25,4 +25,4 @@
 - [ ] Använd minst ett Vue Router-adressparametervärde
 Bootstrap, Veutify eller valfritt grafiskt ska användas
 - [ ] Det finns en ESLint-konfiguration för projektet, som alla filer följer
-- [ ] Det finns en Prettier-konfiguration för projektet, som alla filer **följer**
+- [x] Det finns en Prettier-konfiguration för projektet, som alla filer följer
