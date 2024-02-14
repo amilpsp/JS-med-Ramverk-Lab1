@@ -8,9 +8,9 @@
     "sizes": null,
     "imgSrc": "src/assets/img/book-dnd-dm-guide.jpeg",
     "alt": "Hardcover book on a wooden countertop",
-    "best-seller": "false",
+    "bestSeller": "false",
     "available": "true",
-    "description": "lorem ipsum"
+    "description": "Unde eligendi assumenda exercitationem maiores aliquid veniam reprehenderit dicta eaque id fuga ab tenetur et dolorem perspiciatis, quidem vitae sit iure iusto, temporibus at porro placeat laudantium. Hic?, dolor sit amet consectetur adipisicing elit. Natus ratione possimus, delectus, inventore aliquam sed id nostrum est exercitationem distinctio eaque temporibus sint error qui officiis officia autem perspiciatis provident quos, dolor numquam rerum voluptatem. Rem magni quas suscipit."
   },
   "2": {
     "title": "Monsters Manual",
@@ -21,9 +21,9 @@
     "sizes": null,
     "imgSrc": "src/assets/img/book-dnd-monster-manual.jpeg",
     "alt": "",
-    "best-seller": "false",
+    "bestSeller": "false",
     "available": "true",
-    "description": "lorem ipsum"
+    "description": "Minima a quaerat quibusdam animi aut officiis in non. Cupiditate, labore! Fugiat eveniet iusto autem adipisci obcaecati vel, totam voluptatibus beatae cupiditate earum consequuntur est harum tempora suscipit quia error quidem illum explicabo?"
   },
 
   "3": {
@@ -35,9 +35,9 @@
     "sizes": null,
     "imgSrc": "src/assets/img/book-dnd-players-handbook.jpeg",
     "alt": "Hardcover book on a wooden countertop",
-    "best-seller": "false",
+    "bestSeller": "false",
     "available": "true",
-    "description": "lorem ipsum"
+    "description": "Unde eligendi assumenda exercitationem maiores aliquid veniam reprehenderit dicta eaque id fuga ab tenetur et dolorem perspiciatis, quidem vitae sit iure iusto, temporibus at porro placeat laudantium. Hic?"
   },
 
   "4": {
@@ -49,9 +49,9 @@
     "sizes": null,
     "imgSrc": "src/assets/img/controller-custom.jpeg",
     "alt": "Lowlit custom controller on a dark background",
-    "best-seller": "false",
+    "bestSeller": "false",
     "available": "true",
-    "description": "lorem ipsum"
+    "description": "Unde eligendi assumenda exercitationem maiores aliquid veniam reprehenderit dicta eaque id fuga ab tenetur et dolorem perspiciatis, quidem vitae sit iure iusto, temporibus at porro placeat laudantium. Hic?, dolor sit amet consectetur adipisicing elit. Natus ratione possimus, delectus, inventore aliquam sed id nostrum est exercitationem distinctio eaque temporibus sint error qui officiis officia autem perspiciatis provident quos, dolor numquam rerum voluptatem. Rem magni quas suscipit."
   },
 
   "5": {
@@ -63,9 +63,9 @@
     "sizes": null,
     "imgSrc": "src/assets/img/d20-lamp.jpeg",
     "alt": "Warm light table lamp on a bedside table",
-    "best-seller": "false",
+    "bestSeller": "false",
     "available": "true",
-    "description": "lorem ipsum"
+    "description": "Minima a quaerat quibusdam animi aut officiis in non. Cupiditate, labore! Fugiat eveniet iusto autem adipisci obcaecati vel, totam voluptatibus beatae cupiditate earum consequuntur est harum tempora suscipit quia error quidem illum explicabo?"
   },
 
   "6": {
@@ -75,14 +75,14 @@
     "category": "Supplies",
     "price": "50",
     "sizes": null,
-    "imgSrc": "src/assets/img/deco-beholder.jpeg",
+    "imgSrc": "src/assets/img/mini-beholder.jpeg",
     "alt": "Beholder combat miniature on a tabletop",
-    "best-seller": "false",
+    "bestSeller": "false",
     "available": "true",
-    "description": "lorem ipsum"
+    "description": "Unde eligendi assumenda exercitationem maiores aliquid veniam reprehenderit dicta eaque id fuga ab tenetur et dolorem perspiciatis, quidem vitae sit iure iusto, temporibus at porro placeat laudantium. Hic?"
   },
   "7": {
-    "title": "Golden Ornate Metal Dice Set",
+    "title": "Golden Ornate Metal Die Set",
     "brand": "NURDS",
     "author": null,
     "category": "Supplies",
@@ -90,8 +90,203 @@
     "sizes": null,
     "imgSrc": "src/assets/img/dice-set-golden.jpeg",
     "alt": "Ornate golden die on a tabletop",
-    "best-seller": "false",
+    "bestSeller": "false",
     "available": "true",
-    "description": "lorem ipsum"
+    "description": "Unde eligendi assumenda exercitationem maiores aliquid veniam reprehenderit dicta eaque id fuga ab tenetur et dolorem perspiciatis, quidem vitae sit iure iusto, temporibus at porro placeat laudantium. Hic?, dolor sit amet consectetur adipisicing elit. Natus ratione possimus, delectus, inventore aliquam sed id nostrum est exercitationem distinctio eaque temporibus sint error qui officiis officia autem perspiciatis provident quos, dolor numquam rerum voluptatem. Rem magni quas suscipit."
+  },
+  "8": {
+    "title": "'Ice' die set ",
+    "brand": "NURDS",
+    "author": null,
+    "category": "Supplies",
+    "price": "150",
+    "sizes": ["xs", "s", "m", "l", "xl"],
+    "imgSrc": "src/assets/img/dice-set-ice.jpeg",
+    "alt": "",
+    "bestSeller": "",
+    "available": "",
+    "description": ""
+  },
+  "9": {
+    "title": "Metal Die set",
+    "brand": "",
+    "author": "",
+    "category": "",
+    "price": "",
+    "sizes": ["xs", "s", "m", "l", "xl"],
+    "imgSrc": "src/assets/img/dice-set-metal.jpeg",
+    "alt": "",
+    "bestSeller": "",
+    "available": "",
+    "description": ""
+  },
+  "10": {
+    "title": "'Water Elemental' die set",
+    "brand": "",
+    "author": "",
+    "category": "",
+    "price": "",
+    "sizes": ["xs", "s", "m", "l", "xl"],
+    "imgSrc": "src/assets/img/dice-set-water-genasi.jpeg",
+    "alt": "",
+    "bestSeller": "",
+    "available": "",
+    "description": ""
+  },
+  "11": {
+    "title": "Griffindor Uniform",
+    "brand": "",
+    "author": "",
+    "category": "",
+    "price": "",
+    "sizes": ["xs", "s", "m", "l", "xl"],
+    "imgSrc": "src/assets/img/hp-griffindor.jpeg",
+    "alt": "",
+    "bestSeller": "",
+    "available": "",
+    "description": ""
+  },
+  "12": {
+    "title": "Hufflepuff Uniform",
+    "brand": "",
+    "author": "",
+    "category": "",
+    "price": "",
+    "sizes": ["xs", "s", "m", "l", "xl"],
+    "imgSrc": "src/assets/img/hp-hufflepuf.jpeg",
+    "alt": "",
+    "bestSeller": "",
+    "available": "",
+    "description": ""
+  },
+  "13": {
+    "title": "Ravenclaw Uniform",
+    "brand": "",
+    "author": "",
+    "category": "",
+    "price": "",
+    "sizes": ["xs", "s", "m", "l", "xl"],
+    "imgSrc": "src/assets/img/hp-ravenclaw.jpeg",
+    "alt": "",
+    "bestSeller": "",
+    "available": "",
+    "description": ""
+  },
+  "14": {
+    "title": "Slitherin Uniform",
+    "brand": "",
+    "author": "",
+    "category": "",
+    "price": "",
+    "sizes": ["xs", "s", "m", "l", "xl"],
+    "imgSrc": "src/assets/img/hp-slitherin.jpeg",
+    "alt": "",
+    "bestSeller": "",
+    "available": "",
+    "description": ""
+  },
+  "15": {
+    "title": "Army: random miniature bulk pack",
+    "brand": "",
+    "author": "",
+    "category": "",
+    "price": "",
+    "sizes": ["xs", "s", "m", "l", "xl"],
+    "imgSrc": "src/assets/img/mini-army.jpeg",
+    "alt": "",
+    "bestSeller": "",
+    "available": "",
+    "description": ""
+  },
+  "16": {
+    "title": "Elemental mini",
+    "brand": "",
+    "author": "",
+    "category": "",
+    "price": "",
+    "sizes": ["xs", "s", "m", "l", "xl"],
+    "imgSrc": "src/assets/img/mini-elemental-earth.jpeg",
+    "alt": "",
+    "bestSeller": "",
+    "available": "",
+    "description": ""
+  },
+  "17": {
+    "title": "Sandworm mini",
+    "brand": "",
+    "author": "",
+    "category": "",
+    "price": "",
+    "sizes": ["xs", "s", "m", "l", "xl"],
+    "imgSrc": "src/assets/img/mini-sandworm.jpeg",
+    "alt": "",
+    "bestSeller": "",
+    "available": "",
+    "description": ""
+  },
+  "18": {
+    "title": "NurdyPlush",
+    "brand": "",
+    "author": "",
+    "category": "",
+    "price": "",
+    "sizes": ["Barbarian", "Druid", "Fighter", "Mage", "Set"],
+    "imgSrc": "src/assets/img/plushies-assortment.jpeg",
+    "alt": "",
+    "bestSeller": "",
+    "available": "",
+    "description": ""
+  },
+  "19": {
+    "title": "Rubik's limitted edition: gradient",
+    "brand": "",
+    "author": "",
+    "category": "",
+    "price": "",
+    "sizes": ["xs", "s", "m", "l", "xl"],
+    "imgSrc": "src/assets/img/rubiks-cube.jpeg",
+    "alt": "",
+    "bestSeller": "",
+    "available": "",
+    "description": ""
+  },
+  "20": {
+    "title": "Miniature Painting Set",
+    "brand": "",
+    "author": "",
+    "category": "",
+    "price": "",
+    "sizes": ["xs", "s", "m", "l", "xl"],
+    "imgSrc": "src/assets/img/supplies.jpeg",
+    "alt": "",
+    "bestSeller": "",
+    "available": "",
+    "description": ""
+  },
+  "21": {
+    "title": "Full tavern miniature combat map and miniature set",
+    "brand": "",
+    "author": "",
+    "category": "",
+    "price": "",
+    "sizes": ["xs", "s", "m", "l", "xl"],
+    "imgSrc": "src/assets/img/tavern-minies.jpeg",
+    "alt": "",
+    "bestSeller": "",
+    "available": "",
+    "description": ""
+  },
+  "22": {
+    "title": "Fantasy colored wigs",
+    "brand": "",
+    "author": "",
+    "category": "",
+    "price": "",
+    "sizes": ["xs", "s", "m", "l", "xl"],
+    "imgSrc": "src/assets/img/wigs.jpeg",
+    "alt": "",
+    "bestSeller": "",
+    "available": "",
+    "description": ""
   }
 }
