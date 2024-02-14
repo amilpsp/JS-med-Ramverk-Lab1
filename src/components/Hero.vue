@@ -1,11 +1,13 @@
 <template>
-  <v-container id="hero-container">
-    <v-responsive class="align-center text-center" id="hero-div">
-      <!-- <img :src="heroImgSrc" /> -->
-      <div class="text-h4 mb-n1">Welcome to</div>
-      <h1 class="text-h1 font-weight-bold" id="store-name">NURDS</h1>
-    </v-responsive>
-  </v-container>
+  <div>
+    <v-container id="hero-container">
+      <v-responsive class="align-center text-center shade" id="hero-div">
+        <!-- <img :src="heroImgSrc" /> -->
+        <div class="text-h4 mb-n1">Welcome to</div>
+        <h1 class="text-h1 font-weight-bold" id="store-name">NURDS</h1>
+      </v-responsive>
+    </v-container>
+  </div>
 </template>
 
 <script>
@@ -20,10 +22,18 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
 
+.shade {
+  background: radial-gradient(
+    circle,
+    rgb(27, 27, 27) 0%,
+    rgba(27, 27, 27, 0.502) 15%,
+    rgba(255, 255, 255, 0) 40%
+  );
+}
+
 #hero-div {
   height: 90vh;
 }
-
 #store-name {
   font-family: "Protest Guerrilla", sans-serif;
   font-size: 2em;
