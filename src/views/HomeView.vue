@@ -3,7 +3,7 @@ import Hero from "@/components/Hero.vue";
 import Cards from "@/components/Cards.vue";
 </script>
 <template>
-  <Hero id="hero" :heroImgSrc="heroBackground" />
+  <Hero :heroImgSrc="heroBackground" />
   <v-row class="d-flex align-center justify-center pa-10">
     <Cards
       v-for="product in products"
@@ -18,7 +18,12 @@ export default {
   data() {
     return {
       products: [],
-      categories: ["Books", "Supplies", "Electronics", "Clothes"],
+      categories: [
+        { name: "Books", active: true },
+        { name: "Supplies", active: true },
+        { name: "Electronics", active: true },
+        { name: "Clothes", active: true },
+      ],
       heroBackground: "../src/assets/img/mini-army.jpeg",
     };
   },
@@ -38,12 +43,3 @@ export default {
   },
 };
 </script>
-<style>
-#hero {
-  background-image: url(../src/assets/img/mini-army.jpeg);
-  background-position: center;
-  background-size: cover;
-  width: 100vw;
-  filter: grayscale() contrast(1.2);
-}
-</style>

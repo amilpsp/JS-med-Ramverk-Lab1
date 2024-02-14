@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="hero-img">
     <v-container id="hero-container">
       <v-responsive class="align-center text-center shade" id="hero-div">
         <!-- <img :src="heroImgSrc" /> -->
@@ -30,7 +30,13 @@ export default {
     rgba(255, 255, 255, 0) 40%
   );
 }
-
+#hero-img {
+  background-image: url(../src/assets/img/mini-army.jpeg);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  filter: grayscale();
+}
 #hero-div {
   height: 90vh;
 }
