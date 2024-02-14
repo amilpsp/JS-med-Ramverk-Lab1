@@ -1,11 +1,11 @@
 <script setup>
 import Hero from "@/components/Hero.vue";
-import Store from "@/components/Store.vue";
+import Cards from "@/components/Cards.vue";
 </script>
 <template>
   <Hero id="hero" :heroImgSrc="heroBackground" />
-  <v-row class="d-flex align-center justify-center">
-    <Store
+  <v-row class="d-flex align-center justify-center pa-10">
+    <Cards
       v-for="product in products"
       :key="product.id"
       :product="product"

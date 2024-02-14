@@ -1,6 +1,6 @@
 <template>
-  <v-col cols="auto" class="align-items-center">
-    <v-card min-width="300" max-width="344">
+  <v-col cols="3">
+    <v-card>
       <v-img :src="cardImgSrc" height="200px" cover />
 
       <v-card-title> {{ product.title }} </v-card-title>
