@@ -3,9 +3,14 @@ import Hero from "@/components/Hero.vue";
 import Store from "@/components/Store.vue";
 </script>
 <template>
-  <Hero />
+  <Hero id="hero" :heroImgSrc="heroBackground" />
   <v-row class="d-flex align-center justify-center">
-    <Store v-for="product in products" :key="product.id" :product="product" />
+    <Store
+      v-for="product in products"
+      :key="product.id"
+      :product="product"
+      :cardImgSrc="product.imgSrc"
+    />
   </v-row>
 </template>
 <script>
@@ -13,10 +18,11 @@ export default {
   data() {
     return {
       products: [],
+      categories: ["Books", "Supplies", "Electronics", "Clothes"],
+      heroBackground: "../src/assets/img/mini-army.jpeg",
     };
   },
   name: "HomeView",
-  components: { store: Store },
   created() {
     this.fetchProducts();
   },
@@ -32,4 +38,12 @@ export default {
   },
 };
 </script>
-<style></style>
+<style>
+#hero {
+  background-image: url(../src/assets/img/mini-army.jpeg);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  filter: grayscale() contrast(1.2);
+}
+</style>

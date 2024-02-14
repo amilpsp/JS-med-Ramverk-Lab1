@@ -1,50 +1,28 @@
 <template>
-  <v-container class="fill-height">
-    <v-responsive class="align-center text-center fill-height">
-      <div class="text-body-2 font-weight-light mb-n1">Welcome to</div>
-
-      <h1 class="text-h2 font-weight-bold" id="store-name">NURDS</h1>
-
-      <div class="py-14" />
-
-      <v-row class="d-flex align-center justify-center">
-        <v-col cols="auto">
-          <v-btn
-            href="https://vuetifyjs.com/components/all/"
-            min-width="164"
-            rel="noopener noreferrer"
-            target="_blank"
-            variant="text"
-          >
-            <v-icon icon="mdi-view-dashboard" size="large" start />
-
-            Components
-          </v-btn>
-        </v-col>
-
-        <v-col cols="auto">
-          <v-btn
-            href="https://community.vuetifyjs.com/"
-            min-width="164"
-            rel="noopener noreferrer"
-            target="_blank"
-            variant="text"
-          >
-            <v-icon icon="mdi-account-group" size="large" start />
-
-            Community
-          </v-btn>
-        </v-col>
-      </v-row>
+  <v-container id="hero-container">
+    <v-responsive class="align-center text-center" id="hero-div">
+      <!-- <img :src="heroImgSrc" /> -->
+      <div class="text-h4 mb-n1">Welcome to</div>
+      <h1 class="text-h1 font-weight-bold" id="store-name">NURDS</h1>
     </v-responsive>
   </v-container>
 </template>
 
-<script setup>
-//
+<script>
+export default {
+  props: {
+    heroImgSrc: "",
+    /* passing the imgSrc to the component from the view through a String prop instead */
+  },
+};
 </script>
+
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+
+#hero-div {
+  height: 90vh;
+}
 
 #store-name {
   font-family: "Protest Guerrilla", sans-serif;

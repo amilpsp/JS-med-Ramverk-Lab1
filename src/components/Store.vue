@@ -1,7 +1,7 @@
 <template>
   <v-col cols="auto" class="align-items-center">
     <v-card min-width="300" max-width="344">
-      <v-img src="../assets/img/combat-map.jpeg" height="200px" cover></v-img>
+      <v-img :src="cardImgSrc" height="200px" cover />
 
       <v-card-title> {{ product.title }} </v-card-title>
 
@@ -16,6 +16,9 @@ export default {
     product: {
       required: true,
       type: Object,
+    },
+    cardImgSrc: {
+      type: String,
     },
   },
 };
