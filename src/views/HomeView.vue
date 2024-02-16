@@ -1,16 +1,23 @@
 <script setup>
 import Hero from "@/components/Hero.vue";
 import Cards from "@/components/Cards.vue";
+import Categories from "@/components/Categories.vue";
 </script>
 <template>
   <Hero :heroImgSrc="heroBackground" />
-  <v-row class="d-flex align-center justify-center pa-10">
-    <Cards
-      v-for="product in products"
-      :key="product.id"
-      :product="product"
-      :cardImgSrc="product.imgSrc"
-    />
+
+  <v-row class="d-flex my-10 ml-3" no-gutters>
+    <v-col cols="3" class="d-flex flex-column pt-3">
+      <Categories></Categories>
+    </v-col>
+    <v-col class="d-flex flex-wrap align-center" no-gutters>
+      <Cards
+        v-for="product in products"
+        :key="product.id"
+        :product="product"
+        :cardImgSrc="product.imgSrc"
+      />
+    </v-col>
   </v-row>
 </template>
 <script>
