@@ -1,14 +1,24 @@
 <script setup>
 import Hero from "@/components/Hero.vue";
 import Cards from "@/components/Cards.vue";
-import Categories from "@/components/Categories.vue";
 </script>
 <template>
   <Hero :heroImgSrc="heroBackground" />
 
   <v-row class="d-flex my-10 ml-3" no-gutters>
     <v-col cols="3" class="d-flex flex-column pt-3">
-      <Categories></Categories>
+      <v-sheet>
+        <v-list>
+          <v-list-item v-for="category in categories" :status="category.active">
+            <v-btn
+              :color="category.active ? 'green' : ''"
+              @click="category.active = !category.active"
+            >
+              {{ category.name }}
+            </v-btn>
+          </v-list-item>
+        </v-list>
+      </v-sheet>
     </v-col>
     <v-col class="d-flex flex-wrap align-center" no-gutters>
       <Cards
