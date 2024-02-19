@@ -5,7 +5,7 @@
 - [x] Webbanrop. 
 - [x] Textinterpolering ({{  }})
 - [x] Attributinterpolering (v-bind eller dess kortform) används (key-props (relaterade till v-for) räknas inte)
-- [ ] Villkorlig rendering (v-if) används
+- [x] Villkorlig rendering (v-if) används
 - [x] Listrendering (v-for) används
 - [x] Händelser (v-on eller dess kortform) används
 - [ ] v-model (och värdet som matas in) används
