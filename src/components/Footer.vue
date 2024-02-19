@@ -10,10 +10,14 @@
       ></v-btn>
     </div>
 
-    <div class="pt-0">
-      Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris
-      cursus commodo interdum. Praesent ut risus eget metus luctus accumsan id
-      ultrices nunc. Sed at orci sed massa consectetur dignissim a sit amet dui.
+    <div class="pt-0 pb-2">
+      <p>
+        Disclamer: this is a fake website made as a project for an assignment.
+      </p>
+      <p>
+        All the pictures on the site were AI generated and are not real
+        products.
+      </p>
     </div>
 
     <v-divider></v-divider>
