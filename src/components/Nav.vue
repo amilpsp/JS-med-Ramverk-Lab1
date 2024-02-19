@@ -14,10 +14,10 @@
         Home
       </v-btn>
     </Router-link>
-    <Router-link to="/contact">
+    <Router-link to="/checkout">
       <v-btn class="ma-2" variant="tonal">
-        <v-icon start icon="mdi-email"></v-icon>
-        Contact
+        <v-icon start icon="mdi-cart-variant"></v-icon>
+        Checkout
       </v-btn>
     </Router-link>
     <v-app-bar-nav-icon icon="mdi-magnify"></v-app-bar-nav-icon>
