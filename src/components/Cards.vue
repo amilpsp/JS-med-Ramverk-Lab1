@@ -9,6 +9,12 @@
       </v-card-title>
 
       <v-card-subtitle>SEK {{ product.price }}</v-card-subtitle>
+      <v-btn
+        :icon="onCart ? 'mdi-cart-minus' : 'mdi-cart-plus'"
+        :color="onCart ? 'green' : ''"
+        @click="onCart = !onCart"
+        size="x-small"
+      ></v-btn>
 
       <v-card-actions>
         <v-btn color="orange-lighten-2" variant="text"> Read more </v-btn>
@@ -38,6 +44,7 @@
 export default {
   data: () => ({
     show: false,
+    onCart: false,
   }),
   props: {
     product: {
