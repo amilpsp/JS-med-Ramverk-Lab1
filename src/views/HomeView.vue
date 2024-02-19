@@ -9,11 +9,11 @@ import Cards from "@/components/Cards.vue";
     <v-col cols="3" class="d-flex flex-column pt-3">
       <v-sheet>
         <v-list>
-          <v-list-item v-for="category in categories" :status="category.active">
+          <v-list-item v-for="category in categories">
             <v-btn
               width="100%"
-              :color="category.active ? 'green' : ''"
-              @click="category.active = !category.active"
+              @click="toggleCategoryStatus(category)"
+              :color="category.name === activeCategory ? 'green' : ''"
             >
               {{ category.name }}
             </v-btn>
@@ -27,6 +27,8 @@ import Cards from "@/components/Cards.vue";
         :key="product.id"
         :product="product"
         :cardImgSrc="product.imgSrc"
+        :category="product.category"
+        :activeCategory="activeCategory"
       />
     </v-col>
   </v-row>
@@ -36,11 +38,13 @@ export default {
   data() {
     return {
       products: [],
+      activeCategory: "All",
       categories: [
-        { name: "Books", active: true },
-        { name: "Supplies", active: true },
-        { name: "Electronics", active: true },
-        { name: "Clothes", active: true },
+        { name: "Books", active: false },
+        { name: "Supplies", active: false },
+        { name: "Electronics", active: false },
+        { name: "Clothes", active: false },
+        { name: "Merch", active: false },
       ],
       heroBackground: "../src/assets/img/mini-army.jpeg",
     };
@@ -56,6 +60,15 @@ export default {
         .then((result) => {
           this.products = result;
         });
+    },
+    toggleCategoryStatus(clickedCategory) {
+      clickedCategory.active = !clickedCategory.active;
+      if (clickedCategory.active === true) {
+        this.activeCategory = clickedCategory.name;
+      } else {
+        this.activeCategory = "All";
+      }
+      console.log(this.activeCategory);
     },
   },
 };

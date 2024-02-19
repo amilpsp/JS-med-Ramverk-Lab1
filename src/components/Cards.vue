@@ -1,5 +1,8 @@
 <template>
-  <v-col cols="4">
+  <v-col
+    v-if="product.category === activeCategory || activeCategory == 'All'"
+    cols="4"
+  >
     <v-card>
       <v-img :src="cardImgSrc" cover />
 
@@ -54,6 +57,7 @@ export default {
     cardImgSrc: {
       type: String,
     },
+    activeCategory: "",
   },
 };
 </script>
