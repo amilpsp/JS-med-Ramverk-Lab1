@@ -11,6 +11,7 @@ import Cards from "@/components/Cards.vue";
         <v-list>
           <v-list-item v-for="category in categories" :status="category.active">
             <v-btn
+              width="100%"
               :color="category.active ? 'green' : ''"
               @click="category.active = !category.active"
             >
@@ -50,10 +51,9 @@ export default {
   },
   methods: {
     fetchProducts() {
-      fetch("../src/products.json")
+      fetch("../public/products.json")
         .then((response) => response.json())
         .then((result) => {
-          console.log(result);
           this.products = result;
         });
     },
