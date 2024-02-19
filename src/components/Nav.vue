@@ -3,21 +3,23 @@
 <template>
   <v-app-bar :elevation="2">
     <template v-slot:prepend>
-      <Router-link to="/"
-        ><img id="app-bar-logo" src="../assets/logo.png"
-      /></Router-link>
+      <Router-link to="/">
+        <img id="app-bar-logo" src="../assets/logo.png" />
+      </Router-link>
     </template>
     <v-app-bar-title id="store-name">NURDS</v-app-bar-title>
-    <Router-link to="/"
-      ><v-btn class="ma-2" variant="tonal"
-        ><v-icon start icon="mdi-home"></v-icon>Home</v-btn
-      ></Router-link
-    >
-    <Router-link to="/contact"
-      ><v-btn class="ma-2" variant="tonal"
-        ><v-icon start icon="mdi-email"></v-icon>Contact</v-btn
-      ></Router-link
-    >
+    <Router-link to="/">
+      <v-btn class="ma-2" variant="tonal">
+        <v-icon start icon="mdi-home"></v-icon>
+        Home
+      </v-btn>
+    </Router-link>
+    <Router-link to="/contact">
+      <v-btn class="ma-2" variant="tonal">
+        <v-icon start icon="mdi-email"></v-icon>
+        Contact
+      </v-btn>
+    </Router-link>
     <v-app-bar-nav-icon icon="mdi-magnify"></v-app-bar-nav-icon>
   </v-app-bar>
 </template>
