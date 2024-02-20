@@ -1,35 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap"); /* already used */
+/* @import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");  */
+/* already used */
 
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap"); */
 /* font-family: 'Nanum Gothic Coding', monospace; */
 
-@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap"); */
 /* font-family: 'VT323', monospace; */
 
-@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap"); */
 /* font-family: 'Covered By Your Grace', cursive; */
 
-@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap"); */
 /* font-family: 'Covered By Your Grace', cursive; */
-
-/* <style> font I loved
-  @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
-</style> */
-/* font-family: 'Protest Revolution', sans-serif; */
-
-/* NONE OF THIS IS WORKING, FIGURE OUT HOW TO CHANGE THE DEFAULTS WITHOUT BREAKING EVERYTHING LATER */
-
-:root {
-  --logo-font: "Protest Guerrilla", sans serif;
-}
-
-$body-font-family: "Protest Guerrilla";
-$title-font: "Nanum Gothic Coding";
-
-.v-application {
-  font-family: $body-font-family, sans-serif !important;
-  .title {
-    /* # To pin point specific classes of some components */
-    font-family: $title-font, sans-serif !important;
-  }
-}
