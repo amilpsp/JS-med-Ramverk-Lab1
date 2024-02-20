@@ -55,7 +55,7 @@ export default {
   },
   methods: {
     fetchProducts() {
-      fetch("../public/products.json")
+      fetch("../products.json")
         .then((response) => response.json())
         .then((result) => {
           this.products = result;

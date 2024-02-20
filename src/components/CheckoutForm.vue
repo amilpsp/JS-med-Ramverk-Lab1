@@ -8,34 +8,33 @@
     ></v-text-field>
 
     <v-text-field
-      v-model="phone.value.value"
-      :counter="7"
-      :error-messages="phone.errorMessage.value"
-      label="Phone Number"
-    ></v-text-field>
-
-    <v-text-field
       v-model="email.value.value"
       :error-messages="email.errorMessage.value"
       label="E-mail"
+    ></v-text-field>
+
+    <v-text-field
+      v-model="address.value.value"
+      :error-messages="address.errorMessage.value"
+      label="Address"
     ></v-text-field>
 
     <v-select
       v-model="select.value.value"
       :items="items"
       :error-messages="select.errorMessage.value"
-      label="Select"
+      label="Payment Method"
     ></v-select>
 
     <v-checkbox
       v-model="checkbox.value.value"
       :error-messages="checkbox.errorMessage.value"
       value="1"
-      label="Option"
+      label="I have read and agreed to NURDS' Terms of Service"
       type="checkbox"
     ></v-checkbox>
 
-    <v-btn class="me-4" type="submit"> submit </v-btn>
+    <v-btn class="me-4" type="submit"> Continue to payment </v-btn>
 
     <v-btn @click="handleReset"> clear </v-btn>
   </form>
@@ -51,15 +50,15 @@ const { handleSubmit, handleReset } = useForm({
 
       return "Name needs to be at least 2 characters.";
     },
-    phone(value) {
-      if (value?.length > 9 && /[0-9-]+/.test(value)) return true;
-
-      return "Phone number needs to be at least 9 digits.";
-    },
     email(value) {
       if (/^[a-z.-]+@[a-z.-]+\.[a-z]+$/i.test(value)) return true;
 
       return "Must be a valid e-mail.";
+    },
+    address(value) {
+      if (value?.length >= 2) return true;
+
+      return "Must be a valid address";
     },
     select(value) {
       if (value) return true;
@@ -74,12 +73,12 @@ const { handleSubmit, handleReset } = useForm({
   },
 });
 const name = useField("name");
-const phone = useField("phone");
 const email = useField("email");
+const address = useField("address");
 const select = useField("select");
 const checkbox = useField("checkbox");
 
-const items = ref(["Item 1", "Item 2", "Item 3", "Item 4"]);
+const items = ref(["Card", "Apple Pay", "Klarna"]);
 
 const submit = handleSubmit((values) => {
   alert(JSON.stringify(values, null, 2));

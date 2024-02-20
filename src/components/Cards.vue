@@ -11,13 +11,19 @@
         {{ product.title }}
       </v-card-title>
 
-      <v-card-subtitle>SEK {{ product.price }}</v-card-subtitle>
-      <v-btn
-        :icon="onCart ? 'mdi-cart-minus' : 'mdi-cart-plus'"
-        :color="onCart ? 'green' : ''"
-        @click="onCart = !onCart"
-        size="x-small"
-      ></v-btn>
+      <v-row class="align-items-center">
+        <v-col class="align-items-center">
+          <v-card-subtitle>SEK {{ product.price }}</v-card-subtitle>
+        </v-col>
+        <v-col cols="3" class="align-items-center">
+          <v-btn
+            :icon="onCart ? 'mdi-cart-minus' : 'mdi-cart-plus'"
+            :color="onCart ? 'green' : ''"
+            @click="onCart = !onCart"
+            size="x-small"
+          ></v-btn>
+        </v-col>
+      </v-row>
 
       <v-card-actions>
         <v-btn color="orange-lighten-2" variant="text"> Read more </v-btn>

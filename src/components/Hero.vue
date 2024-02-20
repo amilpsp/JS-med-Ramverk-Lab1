@@ -3,8 +3,10 @@
     <v-container id="hero-container">
       <v-responsive class="align-center text-center shade" id="hero-div">
         <!-- <img :src="heroImgSrc" /> -->
-        <div class="text-h4 mb-n1">Welcome to</div>
         <h1 class="text-h1 font-weight-bold" id="store-name">NURDS</h1>
+        <div class="text-h5 mb-n1" id="slogan">
+          The geeky supply store for you!
+        </div>
       </v-responsive>
     </v-container>
   </div>
@@ -21,7 +23,7 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
 .shade {
   background: radial-gradient(
     circle,
@@ -43,5 +45,8 @@ export default {
 #store-name {
   font-family: "Protest Guerrilla", sans-serif;
   font-size: 2em;
+}
+#slogan {
+  font-family: "Protest Revolution", sans-serif;
 }
 </style>
