@@ -1,45 +1,4 @@
 {
-  "1": {
-    "title": "Dungeon Master's Guide",
-    "brand": "Dungeons & Dragons",
-    "author": "Gary Gygax",
-    "category": "Books",
-    "price": "500",
-    "sizes": null,
-    "imgSrc": "src/assets/img/book-dnd-dm-guide.jpeg",
-    "alt": "Hardcover book on a wooden countertop",
-    "bestSeller": "false",
-    "available": "true",
-    "description": "Unde eligendi assumenda exercitationem maiores aliquid veniam reprehenderit dicta eaque id fuga ab tenetur et dolorem perspiciatis, quidem vitae sit iure iusto, temporibus at porro placeat laudantium. Hic?, dolor sit amet consectetur adipisicing elit. Natus ratione possimus, delectus, inventore aliquam sed id nostrum est exercitationem distinctio eaque temporibus sint error qui officiis officia autem perspiciatis provident quos, dolor numquam rerum voluptatem. Rem magni quas suscipit."
-  },
-  "2": {
-    "title": "Monsters Manual",
-    "brand": "Dungeons & Dragons",
-    "author": "Gary Gygax",
-    "category": "Books",
-    "price": "550",
-    "sizes": null,
-    "imgSrc": "src/assets/img/book-dnd-monster-manual.jpeg",
-    "alt": "",
-    "bestSeller": "false",
-    "available": "true",
-    "description": "Minima a quaerat quibusdam animi aut officiis in non. Cupiditate, labore! Fugiat eveniet iusto autem adipisci obcaecati vel, totam voluptatibus beatae cupiditate earum consequuntur est harum tempora suscipit quia error quidem illum explicabo?"
-  },
-
-  "3": {
-    "title": "Player's Handbook",
-    "brand": "Dungeons & Dragons",
-    "author": "Gary Gygax",
-    "category": "Books",
-    "price": "450",
-    "sizes": null,
-    "imgSrc": "src/assets/img/book-dnd-players-handbook.jpeg",
-    "alt": "Hardcover book on a wooden countertop",
-    "bestSeller": "false",
-    "available": "true",
-    "description": "Unde eligendi assumenda exercitationem maiores aliquid veniam reprehenderit dicta eaque id fuga ab tenetur et dolorem perspiciatis, quidem vitae sit iure iusto, temporibus at porro placeat laudantium. Hic?"
-  },
-
   "4": {
     "title": "Custom PS5 Controller",
     "brand": "NURDS",
@@ -51,10 +10,10 @@
     "alt": "Lowlit custom controller on a dark background",
     "bestSeller": "false",
     "available": "true",
-    "description": "Unde eligendi assumenda exercitationem maiores aliquid veniam reprehenderit dicta eaque id fuga ab tenetur et dolorem perspiciatis, quidem vitae sit iure iusto, temporibus at porro placeat laudantium. Hic?, dolor sit amet consectetur adipisicing elit. Natus ratione possimus, delectus, inventore aliquam sed id nostrum est exercitationem distinctio eaque temporibus sint error qui officiis officia autem perspiciatis provident quos, dolor numquam rerum voluptatem. Rem magni quas suscipit."
+    "description": "Unde eligendi assumenda exercitationem maiores aliquid veniam reprehenderit dicta eaque id fuga ab tenetur et dolorem perspiciatis, quidem vitae sit iure iusto, temporibus at porro placeat laudantium. Hic?, dolor sit amet consectetur adipisicing elit."
   },
 
-  "5": {
+  "2": {
     "title": "D20 table lamp",
     "brand": "NURDS",
     "author": null,
@@ -68,7 +27,7 @@
     "description": "Minima a quaerat quibusdam animi aut officiis in non. Cupiditate, labore! Fugiat eveniet iusto autem adipisci obcaecati vel, totam voluptatibus beatae cupiditate earum consequuntur est harum tempora suscipit quia error quidem illum explicabo?"
   },
 
-  "6": {
+  "3": {
     "title": "Beholder miniature",
     "brand": "NURDS",
     "author": null,
@@ -81,7 +40,7 @@
     "available": "true",
     "description": "Unde eligendi assumenda exercitationem maiores aliquid veniam reprehenderit dicta eaque id fuga ab tenetur et dolorem perspiciatis, quidem vitae sit iure iusto, temporibus at porro placeat laudantium. Hic?"
   },
-  "7": {
+  "1": {
     "title": "Golden Ornate Metal Die Set",
     "brand": "NURDS",
     "author": null,
@@ -92,9 +51,49 @@
     "alt": "Ornate golden die on a tabletop",
     "bestSeller": "false",
     "available": "true",
-    "description": "Unde eligendi assumenda exercitationem maiores aliquid veniam reprehenderit dicta eaque id fuga ab tenetur et dolorem perspiciatis, quidem vitae sit iure iusto, temporibus at porro placeat laudantium. Hic?, dolor sit amet consectetur adipisicing elit. Natus ratione possimus, delectus, inventore aliquam sed id nostrum est exercitationem distinctio eaque temporibus sint error qui officiis officia autem perspiciatis provident quos, dolor numquam rerum voluptatem. Rem magni quas suscipit."
+    "description": "Unde eligendi assumenda exercitationem maiores aliquid veniam reprehenderit dicta eaque id fuga ab tenetur et dolorem perspiciatis, quidem vitae sit iure iusto, temporibus at porro placeat laudantium. Hic?, dolor sit amet consectetur adipisicing elit."
   },
+  "10": {
+    "title": "Dungeon Master's Guide",
+    "brand": "Dungeons & Dragons",
+    "author": "Gary Gygax",
+    "category": "Books",
+    "price": "500",
+    "sizes": null,
+    "imgSrc": "src/assets/img/book-dnd-dm-guide.jpeg",
+    "alt": "Hardcover book on a wooden countertop",
+    "bestSeller": "false",
+    "available": "true",
+    "description": "Unde eligendi assumenda exercitationem maiores aliquid veniam reprehenderit dicta eaque id fuga ab tenetur et dolorem perspiciatis, quidem vitae sit iure iusto, temporibus at porro placeat laudantium. Hic?, dolor sit amet consectetur adipisicing elit."
+  },
+  "5": {
+    "title": "Monsters Manual",
+    "brand": "Dungeons & Dragons",
+    "author": "Gary Gygax",
+    "category": "Books",
+    "price": "550",
+    "sizes": null,
+    "imgSrc": "src/assets/img/book-dnd-monster-manual.jpeg",
+    "alt": "",
+    "bestSeller": "false",
+    "available": "true",
+    "description": "Minima a quaerat quibusdam animi aut officiis in non. Cupiditate, labore! Fugiat eveniet iusto autem adipisci obcaecati vel, totam voluptatibus beatae cupiditate earum consequuntur est harum tempora suscipit quia error quidem illum explicabo?"
+  },
+
   "8": {
+    "title": "Player's Handbook",
+    "brand": "Dungeons & Dragons",
+    "author": "Gary Gygax",
+    "category": "Books",
+    "price": "450",
+    "sizes": null,
+    "imgSrc": "src/assets/img/book-dnd-players-handbook.jpeg",
+    "alt": "Hardcover book on a wooden countertop",
+    "bestSeller": "false",
+    "available": "true",
+    "description": "Unde eligendi assumenda exercitationem maiores aliquid veniam reprehenderit dicta eaque id fuga ab tenetur et dolorem perspiciatis, quidem vitae sit iure iusto, temporibus at porro placeat laudantium. Hic?"
+  },
+  "7": {
     "title": "'Ice' die set ",
     "brand": "NURDS",
     "author": null,
@@ -102,191 +101,162 @@
     "price": "150",
     "sizes": ["xs", "s", "m", "l", "xl"],
     "imgSrc": "src/assets/img/dice-set-ice.jpeg",
-    "alt": "",
-    "bestSeller": "",
-    "available": "",
-    "description": ""
+    "available": true,
+    "description": "Minima a quaerat quibusdam animi aut officiis in non. Cupiditate, labore! Fugiat eveniet iusto autem adipisci obcaecati vel, totam voluptatibus beatae cupiditate earum consequuntur est harum tempora suscipit quia error quidem illum explicabo?"
   },
   "9": {
     "title": "Metal Die set",
-    "brand": "",
+    "brand": "NURDS",
     "author": "",
     "category": "Supplies",
-    "price": "",
+    "price": "350",
     "sizes": ["xs", "s", "m", "l", "xl"],
     "imgSrc": "src/assets/img/dice-set-metal.jpeg",
-    "alt": "",
-    "bestSeller": "",
-    "available": "",
-    "description": ""
+    "available": true,
+    "description": "Minima a quaerat quibusdam animi aut officiis in non. Cupiditate, labore! Fugiat eveniet iusto autem adipisci obcaecati vel, totam voluptatibus beatae cupiditate earum consequuntur est harum tempora suscipit quia error quidem illum explicabo?"
   },
-  "10": {
+  "6": {
     "title": "'Water Elemental' die set",
-    "brand": "",
+    "brand": "NURDS",
     "author": "",
     "category": "Supplies",
-    "price": "",
+    "price": "250",
     "sizes": ["xs", "s", "m", "l", "xl"],
     "imgSrc": "src/assets/img/dice-set-water-genasi.jpeg",
-    "alt": "",
-    "bestSeller": "",
-    "available": "",
-    "description": ""
+    "available": true,
+    "description": "Minima a quaerat quibusdam animi aut officiis in non. Cupiditate, labore! Fugiat eveniet iusto autem adipisci obcaecati vel, totam voluptatibus beatae cupiditate earum consequuntur est harum tempora suscipit quia error quidem illum explicabo?"
   },
   "11": {
     "title": "Griffindor Uniform",
-    "brand": "",
+    "brand": "NURDS",
     "author": "",
     "category": "Clothes",
-    "price": "",
+    "price": "999",
     "sizes": ["xs", "s", "m", "l", "xl"],
     "imgSrc": "src/assets/img/hp-griffindor.jpeg",
-    "alt": "",
-    "bestSeller": "",
-    "available": "",
-    "description": ""
+    "available": true,
+    "description": "Minima a quaerat quibusdam animi aut officiis in non. Cupiditate, labore! Fugiat eveniet iusto autem adipisci obcaecati vel, totam voluptatibus beatae cupiditate earum consequuntur est harum tempora suscipit quia error quidem illum explicabo?"
   },
   "12": {
     "title": "Hufflepuff Uniform",
-    "brand": "",
+    "brand": "NURDS",
     "author": "",
     "category": "Clothes",
-    "price": "",
+    "price": "999",
     "sizes": ["xs", "s", "m", "l", "xl"],
     "imgSrc": "src/assets/img/hp-hufflepuf.jpeg",
-    "alt": "",
-    "bestSeller": "",
-    "available": "",
-    "description": ""
+    "available": true,
+    "description": "Minima a quaerat quibusdam animi aut officiis in non. Cupiditate, labore! Fugiat eveniet iusto autem adipisci obcaecati vel, totam voluptatibus beatae cupiditate earum consequuntur est harum tempora suscipit quia error quidem illum explicabo?"
   },
   "13": {
     "title": "Ravenclaw Uniform",
-    "brand": "",
+    "brand": "NURDS",
     "author": "",
     "category": "Clothes",
-    "price": "",
+    "price": "999",
     "sizes": ["xs", "s", "m", "l", "xl"],
     "imgSrc": "src/assets/img/hp-ravenclaw.jpeg",
-    "alt": "",
-    "bestSeller": "",
-    "available": "",
-    "description": ""
+    "available": true,
+    "description": "Minima a quaerat quibusdam animi aut officiis in non. Cupiditate, labore! Fugiat eveniet iusto autem adipisci obcaecati vel, totam voluptatibus beatae cupiditate earum consequuntur est harum tempora suscipit quia error quidem illum explicabo?"
   },
   "14": {
     "title": "Slitherin Uniform",
-    "brand": "",
+    "brand": "NURDS",
     "author": "",
     "category": "Clothes",
-    "price": "",
+    "price": "999",
     "sizes": ["xs", "s", "m", "l", "xl"],
     "imgSrc": "src/assets/img/hp-slitherin.jpeg",
-    "alt": "",
-    "bestSeller": "",
-    "available": "",
-    "description": ""
+    "available": true,
+    "description": "Minima a quaerat quibusdam animi aut officiis in non. Cupiditate, labore! Fugiat eveniet iusto autem adipisci obcaecati vel, totam voluptatibus beatae cupiditate earum consequuntur est harum tempora suscipit quia error quidem illum explicabo?"
   },
   "15": {
     "title": "Assorted bulk minies",
-    "brand": "",
+    "brand": "NURDS",
     "author": "",
     "category": "Supplies",
     "price": "",
     "sizes": ["xs", "s", "m", "l", "xl"],
     "imgSrc": "src/assets/img/mini-army.jpeg",
-    "alt": "",
-    "bestSeller": "",
-    "available": "",
-    "description": ""
+
+    "available": true,
+    "description": "Minima a quaerat quibusdam animi aut officiis in non. Cupiditate, labore! Fugiat eveniet iusto autem adipisci obcaecati vel, totam voluptatibus beatae cupiditate earum consequuntur est harum tempora suscipit quia error quidem illum explicabo?"
   },
   "16": {
     "title": "Elemental mini",
-    "brand": "",
+    "brand": "NURDS",
     "author": "",
     "category": "Supplies",
-    "price": "",
+    "price": "70",
     "sizes": ["xs", "s", "m", "l", "xl"],
     "imgSrc": "src/assets/img/mini-elemental-earth.jpeg",
-    "alt": "",
-    "bestSeller": "",
-    "available": "",
-    "description": ""
+    "available": true,
+    "description": "Minima a quaerat quibusdam animi aut officiis in non. Cupiditate, labore! Fugiat eveniet iusto autem adipisci obcaecati vel, totam voluptatibus beatae cupiditate earum consequuntur est harum tempora suscipit quia error quidem illum explicabo?"
   },
   "17": {
     "title": "Sandworm mini",
-    "brand": "",
+    "brand": "NURDS",
     "author": "",
     "category": "Supplies",
-    "price": "",
+    "price": "50",
     "sizes": ["xs", "s", "m", "l", "xl"],
     "imgSrc": "src/assets/img/mini-sandworm.jpeg",
-    "alt": "",
-    "bestSeller": "",
-    "available": "",
-    "description": ""
+    "available": true,
+    "description": "Minima a quaerat quibusdam animi aut officiis in non. Cupiditate, labore! Fugiat eveniet iusto autem adipisci obcaecati vel, totam voluptatibus beatae cupiditate earum consequuntur est harum tempora suscipit quia error quidem illum explicabo?"
   },
   "18": {
     "title": "NurdyPlush",
-    "brand": "",
+    "brand": "NURDS",
     "author": "",
     "category": "Merch",
-    "price": "",
+    "price": "300",
     "sizes": ["Barbarian", "Druid", "Fighter", "Mage", "Set"],
     "imgSrc": "src/assets/img/plushies-assortment.jpeg",
-    "alt": "",
-    "bestSeller": "",
-    "available": "",
-    "description": ""
+    "available": true,
+    "description": "Minima a quaerat quibusdam animi aut officiis in non. Cupiditate, labore! Fugiat eveniet iusto autem adipisci obcaecati vel, totam voluptatibus beatae cupiditate earum consequuntur est harum tempora suscipit quia error quidem illum explicabo?"
   },
   "19": {
     "title": "Rubik's limitted edition: gradient",
-    "brand": "",
+    "brand": "NURDS",
     "author": "",
     "category": "Merch",
-    "price": "",
+    "price": "250",
     "sizes": ["xs", "s", "m", "l", "xl"],
     "imgSrc": "src/assets/img/rubiks-cube.jpeg",
-    "alt": "",
-    "bestSeller": "",
-    "available": "",
-    "description": ""
+    "available": true,
+    "description": "Minima a quaerat quibusdam animi aut officiis in non. Cupiditate, labore! Fugiat eveniet iusto autem adipisci obcaecati vel, totam voluptatibus beatae cupiditate earum consequuntur est harum tempora suscipit quia error quidem illum explicabo?"
   },
   "20": {
     "title": "Miniature Painting Set",
-    "brand": "",
+    "brand": "NURDS",
     "author": "",
     "category": "Supplies",
-    "price": "",
+    "price": "300",
     "sizes": ["xs", "s", "m", "l", "xl"],
     "imgSrc": "src/assets/img/supplies.jpeg",
-    "alt": "",
-    "bestSeller": "",
-    "available": "",
-    "description": ""
+    "available": true,
+    "description": "Minima a quaerat quibusdam animi aut officiis in non. Cupiditate, labore! Fugiat eveniet iusto autem adipisci obcaecati vel, totam voluptatibus beatae cupiditate earum consequuntur est harum tempora suscipit quia error quidem illum explicabo?"
   },
   "21": {
     "title": "Full tavern miniature combat map and miniature set",
-    "brand": "",
+    "brand": "NURDS",
     "author": "",
     "category": "Supplies",
-    "price": "",
+    "price": "1200",
     "sizes": ["xs", "s", "m", "l", "xl"],
     "imgSrc": "src/assets/img/tavern-minies.jpeg",
-    "alt": "",
-    "bestSeller": "",
-    "available": "",
-    "description": ""
+    "available": true,
+    "description": "Minima a quaerat quibusdam animi aut officiis in non. Cupiditate, labore! Fugiat eveniet iusto autem adipisci obcaecati vel, totam voluptatibus beatae cupiditate earum consequuntur est harum tempora suscipit quia error quidem illum explicabo?"
   },
   "22": {
     "title": "Fantasy colored wigs",
-    "brand": "",
+    "brand": "NURDS",
     "author": "",
     "category": "Clothes",
-    "price": "",
+    "price": "600",
     "sizes": ["xs", "s", "m", "l", "xl"],
     "imgSrc": "src/assets/img/wigs.jpeg",
-    "alt": "",
-    "bestSeller": "",
-    "available": "",
-    "description": ""
+    "available": true,
+    "description": "Minima a quaerat quibusdam animi aut officiis in non. Cupiditate, labore! Fugiat eveniet iusto autem adipisci obcaecati vel, totam voluptatibus beatae cupiditate earum consequuntur est harum tempora suscipit quia error quidem illum explicabo?"
   }
 }
