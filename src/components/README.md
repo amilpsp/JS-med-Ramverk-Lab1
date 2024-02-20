@@ -8,7 +8,7 @@
 - [x] Villkorlig rendering (v-if) används
 - [x] Listrendering (v-for) används
 - [x] Händelser (v-on eller dess kortform) används
-- [ ] v-model (och värdet som matas in) används
+- [x] v-model (och värdet som matas in) används
 - [x] En Single Page Application, bestående av minst två webbsidor, ska skapas med Vue Router (Använd både router-link och router-view)
 - [x] Minst en icke-Vue-Router-.vue-komponent ska skapas (App.vue räknas inte)
 - [x] Minst en komponent ska ta emot, och använda, minst en prop (via props-nyckeln)
@@ -22,7 +22,7 @@
 - [ ] Alla props ska vara typsäkra
 - [x] Minst ett custom event används (skickas och tas emot)
 - [ ] Använd Pinia så att flera komponenter kan hämta information därifrån
-- [ ] Använd minst ett Vue Router-adressparametervärde
+- [x] Använd minst ett Vue Router-adressparametervärde
 - [x] Bootstrap, Veutify eller valfritt grafiskt ska användas
 - [ ] Det finns en ESLint-konfiguration för projektet, som alla filer följer
 - [x] Det finns en Prettier-konfiguration för projektet, som alla filer följer
