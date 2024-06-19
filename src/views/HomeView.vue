@@ -46,7 +46,7 @@ export default {
         { name: "Clothes", active: false },
         { name: "Merch", active: false },
       ],
-      heroBackground: "../src/assets/img/mini-army.jpeg",
+      heroBackground: "../public/assets/img/mini-army.jpeg",
     };
   },
   name: "HomeView",
