@@ -4,7 +4,7 @@
   <v-app-bar :elevation="2">
     <template v-slot:prepend>
       <Router-link to="/">
-        <img id="app-bar-logo" src="../assets/logo.png" />
+        <img id="app-bar-logo" src="public/assets/logo.png" />
       </Router-link>
     </template>
     <v-app-bar-title id="store-name">NURDS</v-app-bar-title>
